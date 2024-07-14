@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #3DBFF2;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 100px;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.header h2 {
+    font-size: 72px;
+    text-align:left;
+    border-width: 0cm;
+}
+
+.section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 20px;
+    text-align: center;
+    background-color:#03a9eb
+}
+
+.section:nth-child(odd) {
+    background-color: #F3F3F3;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.section p {
+    font-size: 18px;
+    color: #666;
+}
+
+.section img .bottom-center {
+    position: absolute;
+    bottom: 8px;
+}
+
+.testimonials {
+    background-color: #feffff;
+    color: #030303;
+    text-align: center;
+    padding: 50px 0;
+    height:auto;
+}
+
+.testimonial-item img {
+    border-radius: 50%;
+   
+}
+.testimonial-item img center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.testimonials h2 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    color: #939292;
+}
+
+.testimonials .testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial-item {
+    max-width: 300px;
+    text-align: left;
+}
+
+.testimonial-item p {
+    font-size: 18px;
+    color: #4e4d4d;
+    text-align: center;
+}
+
+.testimonial-item h3 {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color:#030303;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.testimonial-item h4 {
+    font-size: 16px;
+    color: #939292;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #86C8BC;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p b{
+    margin: 0;
+    color: rgb(27, 129, 142);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer a {
+    color: rgb(27, 129, 142);
+    margin: 0 10px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 80px;
+    vertical-align: middle;
+  }
+  .style.display.img {
+    top padding : auto;
+    bottom padding : auto;
+    left padding : auto;
+    right padding : auto;
+  }
+
+  .grid-container {
+  Display: grid;
+grid-template-column: repeat(2, 1fr)
+  }
